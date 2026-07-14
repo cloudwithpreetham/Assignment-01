@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuteDude HTML Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+
+    <h1>
+      Welcome to <mark>TuteDude Learning Platform</mark>
+    </h1>
+
+    <p>
+      Learn HTML with <strong>real-world projects</strong> and
+      <em>interactive lessons.</em>
+    </p>
+
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#menu">Menu</a> |
+      <a href="#trivia">Trivia</a> |
+      <a href="#extras">Extras</a> |
+      <a href="#feedback">Feedback</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <figure>
+      <img src="images/hero.jpg" width="700" alt="TuteDude">
+      <figcaption>
+        Learn HTML from beginner to advanced.
+      </figcaption>
+    </figure>
+
+  </header>
+
+  <hr>
+
+  <main>
+
+    <section id="about">
+
+      <h2>About TuteDude</h2>
+
+      <article>
+
+        <p>
+
+          <abbr title="TuteDude">TD</abbr>
+
+          was founded in
+
+          <time datetime="2021">2021</time>
+
+          to provide
+
+          <strong>high-quality online education</strong>.
+
+        </p>
+
+        <blockquote>
+
+          "The beautiful thing about learning is that nobody can take it away from you."
+
+          <cite>— B.B. King</cite>
+
+        </blockquote>
+
+      </article>
+
+    </section>
+
+    <hr>
+
+    <section id="menu">
+
+      <h2>Our Courses</h2>
+
+      <table border="1" cellpadding="10">
+
+        <thead>
+
+          <tr>
+
+            <th>Course</th>
+
+            <th>Duration</th>
+
+            <th>Price</th>
+
+            <th>Details</th>
+
+          </tr>
+
+        </thead>
+
+        <tbody>
+
+          <tr>
+
+            <td>HTML</td>
+
+            <td>2 Weeks</td>
+
+            <td>₹999</td>
+
+            <td>
+
+              <table border="1">
+
+                <tr>
+
+                  <th>Videos</th>
+
+                  <th>Projects</th>
+
+                </tr>
+
+                <tr>
+
+                  <td>20</td>
+
+                  <td>5</td>
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td>CSS</td>
+
+            <td>3 Weeks</td>
+
+            <td>₹1499</td>
+
+            <td>
+
+              <table border="1">
+
+                <tr>
+
+                  <th>Videos</th>
+
+                  <th>Projects</th>
+
+                </tr>
+
+                <tr>
+
+                  <td>30</td>
+
+                  <td>8</td>
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+        </tbody>
+
+        <tfoot>
+
+          <tr>
+
+            <td colspan="4">
+
+              More courses coming soon!
+
+            </td>
+
+          </tr>
+
+        </tfoot>
+
+      </table>
+
+    </section>
+
+    <hr>
+
+    <section id="trivia">
+
+      <h2>Trivia</h2>
+
+      <aside>
+
+        <details>
+
+          <summary>Did You Know?</summary>
+
+          <p>
+
+            HTML was first introduced by Tim Berners-Lee in 1991.
+
+          </p>
+
+        </details>
+
+      </aside>
+
+    </section>
+
+    <hr>
+
+    <section id="extras">
+
+      <h2>Extras</h2>
+
+      <h3>Audio</h3>
+
+      <audio controls>
+
+        <source src="audio/welcome.mp3">
+
+      </audio>
+
+      <h3>Video</h3>
+
+      <video width="600" controls>
+
+        <source src="video/intro.mp4">
+
+      </video>
+
+    </section>
+
+    <hr>
+
+    <section id="feedback">
+
+      <h2>Feedback Form</h2>
+
+      <form>
+
+        <fieldset>
+
+          <legend>Student Feedback</legend>
+
+          <label>Name:</label>
+
+          <br>
+
+          <input type="text" placeholder="Enter Name">
+
+          <br><br>
+
+          <label>Email:</label>
+
+          <br>
+
+          <input type="email" placeholder="Enter Email">
+
+          <br><br>
+
+          <label>Course</label>
+
+          <br>
+
+          <select>
+
+            <option>HTML</option>
+
+            <option>CSS</option>
+
+            <option>JavaScript</option>
+
+          </select>
+
+          <br><br>
+
+          <label>Your Feedback</label>
+
+          <br>
+
+          <textarea rows="5" cols="40"></textarea>
+
+          <br><br>
+
+          <input type="submit">
+
+        </fieldset>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <hr>
+
+  <footer id="contact">
+
+    <address>
+
+      Email: hello@tutedude.com
+
+      <br>
+
+      Phone: +91 9876543210
+
+    </address>
+
+    <p>
+
+      ©
+
+      <time datetime="2026">2026</time>
+
+      TuteDude.
+
+      All Rights Reserved.
+
+    </p>
+
+  </footer>
+
+</body>
+
+</html>
