@@ -4,6 +4,9 @@
 
 This project demonstrates the use of semantic HTML elements.
 
+## Deploy Link
+https://assignment-01-gamma.vercel.app/
+
 ## Features
 
 - Semantic HTML
